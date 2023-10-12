@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    padding: 30px; /*Espaçamento*/
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/recife-marco-zero-chao-colorido-divulgacao-cvc.jpg);
+    
+}
+
+
+
+.links-home{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    list-style: none; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    
+}
+
+.links-home a{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+img{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    padding: 20px;
+}
+
+
+.container-footer{
+    width: 1080px;
+    display: flex;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/recife-marco-zero-chao-colorido-divulgacao-cvc.jpg);
+}
+
+.sociais button {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #4dc978, red);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+  }
+  
+  .sociais button i{
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container-footer .icons-sociais{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  
