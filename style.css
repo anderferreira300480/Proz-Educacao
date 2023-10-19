@@ -35,29 +35,30 @@
     font-size: 30px;
 }
 
-
-/*BODY*/
-img{
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 h1{
+    color: #d79c8f;
     text-align: center;
-    margin: 20px;
+    margin: 40px;
 }
 
-h2{
-    text-align: center;
-    padding: 20px;
+.marco-zero{
+    background-color: #d79c8f;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 30px;
+    
+   
+
 }
 
-h3{
-    padding: 20px;
+.img-marco-zero{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    margin: 40px;
 }
+
+
 
 /*FOOTER*/
 .container-footer{
@@ -93,5 +94,3 @@ h3{
     margin-right: 20px;
     margin-left: 20px;
   }
-
-  
